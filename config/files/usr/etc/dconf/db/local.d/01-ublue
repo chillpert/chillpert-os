@@ -1,0 +1,226 @@
+[org/gnome/desktop/a11y]
+always-show-universal-access-status=true
+
+[org/gnome/desktop/a11y/magnifier]
+mag-factor=1.5
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/backgrounds/chillpert-os/Iceland.JPG'
+picture-uri-dark='file:///usr/share/backgrounds/chillpert-os/Iceland.JPG'
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us'), ('ibus', 'anthy')]
+mru-sources=[('xkb', 'us')]
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+enable-animations=false
+enable-hot-corners=false
+
+[org/gnome/desktop/wm/keybindings]
+activate-window-menu=@as []
+always-on-top=@as []
+begin-move=@as []
+begin-resize=@as []
+close=['<Super>q']
+cycle-group=@as []
+cycle-group-backward=@as []
+cycle-panels=@as []
+cycle-windows=@as []
+cycle-windows-backward=@as []
+lower=@as []
+maximize=@as []
+maximize-horizontally=@as []
+maximize-vertically=@as []
+minimize=@as []
+move-to-center=@as []
+move-to-corner-ne=@as []
+move-to-corner-nw=@as []
+move-to-corner-se=@as []
+move-to-corner-sw=@as []
+move-to-monitor-down=@as []
+move-to-monitor-left=@as []
+move-to-monitor-right=@as []
+move-to-monitor-up=@as []
+move-to-side-e=@as []
+move-to-side-n=@as []
+move-to-side-s=@as []
+move-to-side-w=@as []
+move-to-workspace-1=['<Super><Shift>1']
+move-to-workspace-10=['<Super><Shift>0']
+move-to-workspace-11=@as []
+move-to-workspace-12=@as []
+move-to-workspace-2=['<Super><Shift>2']
+move-to-workspace-3=['<Super><Shift>3']
+move-to-workspace-4=['<Super><Shift>4']
+move-to-workspace-5=['<Super><Shift>5']
+move-to-workspace-6=['<Super><Shift>6']
+move-to-workspace-7=['<Super><Shift>7']
+move-to-workspace-8=['<Super><Shift>8']
+move-to-workspace-9=['<Super><Shift>9']
+move-to-workspace-down=@as []
+move-to-workspace-last=@as []
+move-to-workspace-left=@as []
+move-to-workspace-right=@as []
+move-to-workspace-up=@as []
+panel-run-dialog=@as []
+raise=@as []
+raise-or-lower=@as []
+show-desktop=['<Super>d']
+switch-applications=['<Super>Tab']
+switch-applications-backward=['<Shift><Super>Tab']
+switch-group=@as []
+switch-group-backward=@as []
+switch-input-source=['<Super>Space']
+switch-input-source-backward=['<Shift><Super>Space']
+switch-panels=@as []
+switch-panels-backward=@as []
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-10=['<Super>0']
+switch-to-workspace-11=@as []
+switch-to-workspace-12=@as []
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+switch-to-workspace-5=['<Super>5']
+switch-to-workspace-6=['<Super>6']
+switch-to-workspace-7=['<Super>7']
+switch-to-workspace-8=['<Super>8']
+switch-to-workspace-9=['<Super>9']
+switch-to-workspace-down=@as []
+switch-to-workspace-last=@as []
+switch-to-workspace-left=@as []
+switch-to-workspace-right=@as []
+switch-to-workspace-up=@as []
+switch-windows=['<Alt>Tab']
+switch-windows-backward=['<Shift><Alt>Tab']
+toggle-above=@as []
+toggle-fullscreen=['<Shift><Super>f']
+toggle-maximized=['<Super>f','<Super>Up']
+toggle-on-all-workspaces=@as []
+unmaximize=['<Super>Down']
+
+[org/gnome/desktop/wm/preferences]
+num-workspaces=10
+
+[org/gnome/mutter]
+auto-maximize=true
+center-new-windows=true
+dynamic-workspaces=false
+workspaces-only-on-primary=false
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=['<Super>Left']
+toggle-tiled-right=['<Super>Right']
+
+[org/gnome/nautilus/list-view]
+use-tree-view=true
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+default-sort-order='type'
+
+[org/gnome/nautilus/window-state]
+maximized=true
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/']
+email=@as []
+www=@as []
+help=@as []
+home=['<Super>e']
+logout=['<Shift><Super>e']
+magnifier=['<Super>z']
+magnifier-zoom-in=['<Super>equal']
+magnifier-zoom-out=['<Super>minus']
+mic-mute=['<Super>m']
+next=['<Super>period']
+play=['<Super>slash']
+previous=['<Super>comma']
+screensaver=['<Super>x']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Shift><Super>Return'
+command='gnome-terminal --maximize'
+name='Terminal (Host)'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>Return'
+command='gnome-terminal --window-with-profile=Dev --maximize'
+name='Terminal (Dev)'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Shift><Super>s'
+command='flatpak run org.flameshot.Flameshot gui'
+name='Flameshot'
+
+[org/gnome/shell]
+disable-user-extensions=false
+enabled-extensions=['workspaces-by-open-apps@favo02.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'just-perfection-desktop@just-perfection', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
+
+[org/gnome/shell/app-switcher]
+current-workspace-only=false
+
+[org/gnome/shell/window-switcher]
+current-workspace-only=true
+
+[org/gnome/shell/keybindings]
+focus-active-notification=['<Super>n']
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+switch-to-application-5=@as []
+switch-to-application-6=@as []
+switch-to-application-7=@as []
+switch-to-application-8=@as []
+switch-to-application-9=@as []
+toggle-quick-settings=@as []
+toggle-application-view=@as []
+toggle-overview=@as []
+
+[org/gnome/terminal/legacy/keybindings]
+next-tab='<Control>Tab'
+prev-tab='<Shift><Control>Tab'
+close-tab='<Control>q'
+
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '05d76e47-090a-45d3-9420-9a8b024d3025']
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+font='DejaVuSansM Nerd Font Mono 10'
+use-system-font=false
+visible-name='Default'
+title='Terminal (Host)'
+
+[org/gnome/terminal/legacy/profiles:/:05d76e47-090a-45d3-9420-9a8b024d3025]
+font='DejaVuSansM Nerd Font Mono 10'
+use-system-font=false
+visible-name='Dev'
+use-custom-command=true
+custom-command='distrobox-enter --name dev -- zsh'
+title='Terminal (Dev)'
+
+[org/gnome/shell/extensions/workspaces-indicator-by-open-apps]
+indicator-round-borders=false
+indicator-all-text=' '
+indicator-show-focused-app=false
+scroll-wraparound=false
+
+[org/gnome/shell/extensions/appindicator]
+legacy-tray-enabled=true
+
+[org/gnome/shell/extensions/just-perfection]
+dash=false
+workspace-popup=false
+workspace=false
+startup-status=0
+double-super-to-appgrid=false
+window-demands-attention-focus=true
+animation=0
+
+[org/gnome/shell/extensions/auto-move-windows]
+application-list=['org.mozilla.firefox.desktop:3', 'com.discordapp.Discord.desktop:5', 'org.signal.Signal.desktop:4', 'im.riot.Riot.desktop:4', 'org.gnome.Terminal.desktop:2', 'org.gnome.Ptyxis.Devel.desktop:2', 'jetbrains-pycharm-ce-ab17f980-627c-4c45-a2d0-62eb275872a9.desktop:1', 'dev-jetbrains-rider-7df92d26-c3b2-4714-a895-f347e4401b6f.desktop:1', 'jetbrains-rider-7df92d26-c3b2-4714-a895-f347e4401b6f.desktop:1', 'org.mozilla.Thunderbird.desktop:6']
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-type='nothing'

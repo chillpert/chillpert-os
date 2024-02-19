@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Load dconf
+Exec=dconf load -f / < /usr/etc/dconf/db/local.d/01-ublue
+OnlyShowIn=GNOME;
+X-GNOME-Autostart-enabled=true
+NoDisplay=true
