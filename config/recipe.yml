@@ -15,10 +15,15 @@ modules:
       - usr: /usr
 
   - type: rpm-ostree
+    repos: 
+      - https://cli.github.com/packages/rpm/gh-cli.repo
     install:
       - gnome-shell-extension-auto-move-windows
       - gnome-shell-extension-just-perfection
       - gnome-shell-extension-appindicator
+      - git
+      - git-lfs
+      - gh
     remove:
       - firefox
       - firefox-langpacks
