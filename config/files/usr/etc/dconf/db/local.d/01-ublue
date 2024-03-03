@@ -221,7 +221,7 @@ window-demands-attention-focus=false
 animation=0
 
 [org/gnome/shell/extensions/auto-move-windows]
-application-list=['org.mozilla.firefox.desktop:3', 'com.discordapp.Discord.desktop:5', 'org.signal.Signal.desktop:4', 'im.riot.Riot.desktop:4', 'org.gnome.Terminal.desktop:2', 'org.gnome.Ptyxis.Devel.desktop:2', 'jetbrains-pycharm-ce-ab17f980-627c-4c45-a2d0-62eb275872a9.desktop:1', 'dev-jetbrains-rider-7df92d26-c3b2-4714-a895-f347e4401b6f.desktop:1', 'jetbrains-rider-7df92d26-c3b2-4714-a895-f347e4401b6f.desktop:1', 'org.mozilla.Thunderbird.desktop:6']
+application-list=['org.mozilla.firefox.desktop:3', 'com.discordapp.Discord.desktop:5', 'org.signal.Signal.desktop:4', 'im.riot.Riot.desktop:4', 'org.gnome.Terminal.desktop:2', 'org.mozilla.Thunderbird.desktop:6', 'jetbrains-rider-d80b78a3-708f-4ed0-90fe-22081fa6ac95.desktop:2', 'com.epicgames.UnrealEngineEditor.desktop:1']
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-type='nothing'
