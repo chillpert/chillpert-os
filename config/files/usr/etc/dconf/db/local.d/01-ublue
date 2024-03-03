@@ -102,7 +102,7 @@ unmaximize=['<Super>Down']
 
 [org/gnome/desktop/wm/preferences]
 num-workspaces=10
-focus-new-windows='strict'
+focus-new-windows='smart'
 
 [org/gnome/mutter]
 auto-maximize=true
