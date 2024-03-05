@@ -69,6 +69,7 @@ modules:
         - org.gnome.baobab
         - org.gnome.Music
         - org.gnome.NautilusPreviewer
+        - org.gnome.clocks
       remove:
         - org.gnome.eog
 
