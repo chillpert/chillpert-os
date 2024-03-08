@@ -24,6 +24,7 @@ modules:
       - git
       - git-lfs
       - gh
+      - adobe-source-han-sans-jp-fonts
     remove:
       - firefox
       - firefox-langpacks
