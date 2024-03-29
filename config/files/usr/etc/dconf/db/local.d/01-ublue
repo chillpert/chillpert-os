@@ -225,3 +225,6 @@ application-list=['org.mozilla.firefox.desktop:3', 'com.discordapp.Discord.deskt
 
 [org/gnome/settings-daemon/plugins/power]
 sleep-inactive-ac-type='nothing'
+
+[org/gnome/software]
+download-updates=false
